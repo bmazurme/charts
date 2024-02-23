@@ -1,0 +1,25 @@
+.common {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.header {
+  composes: common;
+  justify-content: flex-end;
+  margin: 0 0 20px;
+  padding: 10px;
+  border: 1px solid #2a2a2a;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.description {
+  composes: common;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
