@@ -8,7 +8,7 @@
 
 - recharts, cors, helmet, csv-parse
 
-<img src="https://github.com/bmazurme/charts/blob/main/src/images/activity-rings.png" width="260" height="200" alt="activity-rings" />
+<img src="https://github.com/bmazurme/charts/blob/main/src/images/cover-rings.png" width="660" height="240" alt="activity-rings" />
 
 ### Installation
 ```bash
