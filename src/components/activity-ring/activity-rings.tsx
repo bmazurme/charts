@@ -58,7 +58,7 @@ export default function ActivityRings(props: ActivityRingsProps) {
           ? (
             <text
               dx="0"
-              dy="6"
+              dy={props.options?.text ? '6' : '0'}
               textAnchor="middle"
               dominantBaseline="central"
               style={{
